@@ -91,7 +91,7 @@ class MagicOpenFail: Error {
 	@safe pure nothrow this(string file = __FILE__, size_t line = __LINE__, Throwable next = null)
 	{
 		super("Failed to create magic cookie", file, line, next);
-	}...
+	}
 }
 
 class Magic {
