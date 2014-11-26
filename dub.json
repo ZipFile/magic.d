@@ -1,5 +1,5 @@
 {
-	"name": "magic.d",
+	"name": "magic-d",
 	"targetType": "library",
 	"license": "BSD 2-clause",
 	"libs": ["magic"],
