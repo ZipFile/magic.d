@@ -1,0 +1,9 @@
+{
+	"name": "magic.d",
+	"targetType": "library",
+	"license": "BSD 2-clause",
+	"libs": ["magic"],
+	"description": "D binding around magic number recognition library",
+	"copyright": "Copyright © 2014, Anatoliy Anischovich",
+	"authors": ["Anatoliy Anischovich"],
+}
