@@ -3,7 +3,7 @@
 D binding around [magic number recognition library](http://www.darwinsys.com/file/ "libmagic").
 
 ## Usage
-``` d++
+``` d
 import magic;
 
 auto m = new Magic(MAGIC_MIME_TYPE | MAGIC_NO_CHECK_BUILTIN);
