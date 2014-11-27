@@ -1,0 +1,9 @@
+﻿{
+	"name": "mime",
+	"description": "An example of magic.d usage",
+	"copyright": "Copyright © 2014, John Doe",
+	"authors": ["John Doe"],
+	"dependencies": {
+		"magic-d": {"version": "~master", "path": "../../"}
+	},
+}
