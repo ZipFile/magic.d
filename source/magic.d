@@ -12,19 +12,19 @@ alias magic_t = void *;
 magic_t magic_open(int flags);
 void magic_close(magic_t ms);
 
-immutable(char) *magic_getpath(const char *path, int flags);
-immutable(char) *magic_file(magic_t ms, const char *path);
+immutable(char) *magic_getpath(in char *path, int flags);
+immutable(char) *magic_file(magic_t ms, in char *path);
 immutable(char) *magic_descriptor(magic_t ms, int fd);
-immutable(char) *magic_buffer(magic_t ms, const void *buffer, size_t length);
+immutable(char) *magic_buffer(magic_t ms, in void *buffer, size_t length);
 
 immutable(char) *magic_error(magic_t ms);
 int magic_setflags(magic_t ms, int flags);
 
 int magic_version();
-int magic_load(magic_t ms, const char *path);
-int magic_compile(magic_t ms, const char *path);
-int magic_check(magic_t ms, const char *path);
-int magic_list(magic_t ms, const char *path);
+int magic_load(magic_t ms, in char *path);
+int magic_compile(magic_t ms, in char *path);
+int magic_check(magic_t ms, in char *path);
+int magic_list(magic_t ms, in char *path);
 int magic_errno(magic_t ms);
 
 

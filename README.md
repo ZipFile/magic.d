@@ -2,6 +2,8 @@
 
 D binding around [magic number recognition library](http://www.darwinsys.com/file/ "libmagic").
 
+See `man 3 libmagic` for more info.
+
 ## Usage
 ``` d
 import magic;
