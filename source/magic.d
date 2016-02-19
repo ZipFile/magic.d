@@ -136,7 +136,7 @@ public:
 		return fromStringz(magic_buffer(m, buffer, length));
 	}
 
-	string buffer(T)(in T buffer[]) {
+	string buffer(T)(in T[] buffer) {
 		return fromStringz(magic_buffer(m, buffer.ptr, buffer.sizeof));
 	}
 
